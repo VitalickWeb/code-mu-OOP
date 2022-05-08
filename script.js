@@ -31,11 +31,17 @@ class Employee {
 	solary
 }
 
-let employee = new Employee;//объект класса
-employee.name = 'Vit';
-employee.age = 41;
-employee.solary = 300;
-console.log(employee);
+let employee1 = new Employee;//объект класса
+employee1.name = 'Vit';
+employee1.age = 41;
+employee1.solary = 300;
+console.log(employee1);
+
+let employee2 = new Employee;//объект класса
+employee2.name = 'Lex';
+employee2.age = 30;
+employee2.solary = 255;
+console.log(employee2);
 
 
 
