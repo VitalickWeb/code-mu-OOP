@@ -26,8 +26,8 @@
 // myCar.stop();
 
 class Employee {
-	show() {
-		return 'Вернул показ';
+	show(name, solary) {
+		return name + ' ' + solary;
 	}
 	name
 	age
@@ -45,7 +45,7 @@ employee2.name = 'Lex';
 employee2.age = 30;
 employee2.solary = 255;
 console.log(employee2);
-console.log(employee2.show());
+console.log(employee2.show('Jason', 3500));
 
 
 
