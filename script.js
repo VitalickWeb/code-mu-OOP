@@ -29,6 +29,9 @@ class Employee {
 	show(name, solary) {
 		return name + ' ' + solary;
 	}
+	objThis() {
+		console.log(this.name + ' ' + this.solary);
+	}
 	name
 	age
 	solary
@@ -46,7 +49,7 @@ employee2.age = 30;
 employee2.solary = 255;
 console.log(employee2);
 console.log(employee2.show('Jason', 3500));
-
+employee2.objThis();
 
 
 
